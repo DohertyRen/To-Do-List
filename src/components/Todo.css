@@ -1,0 +1,37 @@
+.todo {
+  margin: 10px auto;
+  width: 400px;
+  padding: 0.5rem;
+  background-color: rgb(107, 107, 107);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.checktext {
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.deleteicon {
+  width: 30px;
+  height: 30px;
+}
+
+.editicon {
+  margin-right: 0.2rem;
+  width: 30px;
+  height: 30px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
