@@ -35,8 +35,7 @@ function Todo({ todos, deleteTodo, handleCheck, editTodo }) {
           {todos.title}
         </p>
         <button className="editicon" onClick={() => handleDialog()}>
-          {" "}
-          <CreateIcon />{" "}
+          <CreateIcon />
         </button>
         <button className="deleteicon" onClick={() => deleteTodo(todos.id)}>
           <DeleteIcon />

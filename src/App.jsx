@@ -1,6 +1,6 @@
 import "./App.css";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
-import Todo from "./components/todo";
+import Todo from "./components/Todo";
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
